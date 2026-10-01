@@ -1,0 +1,23 @@
+Java Notes
+
+0. class always starts with Capital letters keywords with small letters
+
+1. While compiling the complier always rename the file to class name not the file name.
+
+2. you can name a file differently when its non public class but it is mandatory to rename when its public class otherwise it will throw error
+
+3. in a single source file, we can give public class at most one.
+
+4.valid main method signature
+
+----changing place of access modifier with static keyword
+eg:   static public void main(String args[])
+
+------changing place with superscript
+eg:   public static void main(String []args)
+eg:   public static void main(String[] args)
+
+------ using var-args
+eg:   public static void main(String...args)
+
+------- using semicolon(;)        {for class}{optional}

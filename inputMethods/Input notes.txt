@@ -1,0 +1,17 @@
+             Taking input from the keyword
+
+1) using Scaner class ---------it is inside util package which is inside java package
+	nextInt()
+	nextDouble()
+	next()
+	.
+	.
+	.
+	eg usage:		import java.utils.Scanner();
+				Scanner sc = new Scanner();
+				   ^	^	    ^
+				   |    |           |	
+				type  variable    Object
+					
+2) using BufferedRead class 
+3) using commandline interface
