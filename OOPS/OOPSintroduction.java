@@ -54,6 +54,8 @@ class Dog {
     // Properties (Instance Variables)
     String name, color, breed;
     int age, leg, ear; // Side Note: Default value of int is 0
+IMP->	static boolean tail="Yes"; // static variable (also called a class variable) belongs to the class itself rather than to any individual object instance.
+							All instances of that class share a single copy of the variable.
 
     // Behaviours (Methods)
     public void eat() {

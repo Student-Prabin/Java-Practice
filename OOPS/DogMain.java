@@ -1,6 +1,7 @@
 class Dog{
 	String name="Tyson", color, breed;
 	int age,leg=4,ear;
+	static String tail="Yes";
 	
 	public void eat(){
 		System.out.println("Dog is eating...");
@@ -24,6 +25,8 @@ class DogMain{
 		System.out.println(d1.name);
 		System.out.println(d1.leg);
 		d1.sleep();
+		System.out.println(Dog.tail); // Static variable is part of class not object 
+		
 		
 	}
 }
