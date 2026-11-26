@@ -14,7 +14,7 @@ class Calculation{
 		}
 }
 
-class CalculationMain{
+class CalculationMainInstance{
 	public static void main(String... args){
 		Calculation c1 = new Calculation();
 		c1.wish();
