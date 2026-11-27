@@ -5,7 +5,7 @@ class Dog{
 	
 	public void eat(){
 		System.out.println("Dog is eating...");
-		
+			
 		System.out.println("Dog is barkinging...");
 	}
 	public void sleep(){
